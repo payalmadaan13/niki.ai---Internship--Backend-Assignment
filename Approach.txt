@@ -1,0 +1,12 @@
+Approach is based on efficiently finding the fibonacci temrs with the manipulation of intial conditions i.e for n = 1 and n = 2.
+Here for n = 1 , the result is 2 as we have 2 binary sequences(bs) as 0 and 1. Similarly for n = 2, the result is 3 as we have 3 bs as 01,10,11.
+
+Power is not general power function. it is specially to find the power of 2x2 order matrix. This is optimized to cut down to half so as to reduce redundant calculations.
+
+Multiply function does matrix multiplication of 2 matrix and store the final result in the first matrix.
+
+This approach helps us to find it in O(log n) complexity.
+
+
+Another trivial solution (only for sub-task i.e.  n <= 10^4)
+we have the recurence relation An = An-1 + An-2. so just simple take three values and run a loop to keep on calculating the next term.
